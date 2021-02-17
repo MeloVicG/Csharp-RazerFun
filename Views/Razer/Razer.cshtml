@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAZER FUN</title>
+</head>
+<body>
+    
+    <h1>Here are some Delicious FoodS!</h1>
+
+    @{
+            var FoodList = new List<string>
+        {
+        "Tamales",
+        "Enchiladas",
+        "Quesadilla",
+        "Burrito"
+        };
+
+        foreach (var Food in FoodList)
+        {
+            <div>
+                <p>@Food</p>
+            </div>
+        }
+    }
+
+</body>
+</html>
